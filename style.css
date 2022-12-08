@@ -1,0 +1,477 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Montserrat ;
+    
+;
+}
+header, main, footer{
+    width: 1380px;
+    margin: 0 auto; 
+    
+}
+select{
+    border: 0px;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("text/Montserrat-bold.ttf");
+}
+@font-face {
+    font-family: MontserratMedium;
+    src: url("text/Montserrat-Medium.ttf");
+}
+a{
+    text-decoration:  none;
+    font-family: Montserrat;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    color: black;
+    font-family: MontserratMedium;
+}
+
+/*---- header start ----*/
+.header__menu, 
+.header__menu ul, 
+.header__nav ul, .header_info, .header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    margin-top: 29px;
+}
+.header__list{
+     margin-top: 41px; 
+}
+.buttons{
+    padding-top: 30px;
+    /* margin-top: 30px; */
+}
+.header__menu ul{
+    /* margin-top: 29px; */
+}
+.buttons button{
+    padding:  14px 30px 15px 55px;
+    border-radius: 5px;
+    border: 0px;
+    background: #F188F2;
+    color: white;
+}
+.buttons input{
+    border:2px solid #A9A9A9;
+    padding: 15px 0 14px 38px;
+    border-radius: 5px;
+    width: 401px;
+}
+header .header__nav a {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header__menu li, 
+.header__menu a, .header__nav ul, .header__info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header__menu ul, 
+.header__nav ul {
+    gap: 40px;
+}
+.header__menu .haeder__logo{
+    width: 90px;
+    text-align: center;
+    margin-top: 32px;
+}
+.header__menu .buttons button, 
+.header__menu .buttons input, .header__info{
+    display: inline-block;
+}
+.header__nav{
+    margin-top: 25px;
+}
+.header__menu img.header__shop{
+    width: 27px;
+    height: 30px;
+}
+.header__menu button {
+    display: block;
+}
+
+/*---- header end ----*/
+
+/*------ start block start-----*/
+.main__new{
+    background: url("img/backgroundnew.png");
+    margin-top: 37px;
+    margin-bottom: 40px;
+}
+.main__new h1{
+    color:white;
+    font-size: 90px;
+}
+.main__new span{
+    font-size: 63px;
+}
+.button a{
+    font-size: 25px;
+    color: black;
+}
+.button{
+    padding-top:25px;
+    padding-bottom:25px;
+    width: 241px;
+    background: #ffffff;
+    border: 1px solid white;
+    margin-bottom: 139px;
+    border-radius: 13px;
+    margin-left: 51px;
+    margin-right: 41px;
+    margin-top: 61px;
+    color: black;
+}
+h2 {
+    font-size: 40px;
+    margin-right: 20px;
+    line-height: 52px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}   
+h1{
+    padding-top: 120px;
+    font-size: 63px;
+    margin-left: 50px;
+    text-align: left;
+ 
+}
+.main__button1{
+display: flex;
+text-align: center;
+}
+.opacity{
+    margin-top: 61px;
+    padding-top:25px;
+    padding-bottom:25px;
+    width: 241px;
+    background: #A1E2EB;
+    border: 1px solid white;
+    margin-bottom: 139px;
+    border-radius: 13px;
+}
+.opacity a{
+    color:white;
+    font-size: 25px;
+}
+.one{
+    margin-top: 20px;
+    margin-bottom: 51px;
+}
+/*------ start block end-----*/
+
+/*----- category start ----*/
+.main__category__img{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+   
+    text-align: center;
+}
+.main__category__img p {
+    margin-top: 15px;
+}
+
+
+.zagol{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.zagol1
+.main__image{
+    width: 329px;
+    height: 366px;
+}
+.main__way{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.img1 {
+     background:url("img/party.png");
+}
+.img2{
+    background:url("img/balls1.png");
+}
+.img3{
+    background:url("img/balls2.png");
+}
+.img4{
+    background:url("img/balls3.png");
+}
+.img5{
+    background:url("img/balls4.png");
+    width: 329px;
+    height: 366px;
+}
+.img6{
+    background:url("img/balls5.png");
+    width: 329px;
+    height: 366px;
+}
+.img7{
+    background:url("img/balls6.png");
+    width: 329px;
+    height: 366px;
+}
+.img8{
+    background:url("img/balls7.png");
+    width: 329px;
+    height: 366px;
+}
+/*----- category end ----*/
+
+/*----- hit start ----*/
+.main__popular__img{
+    display: flex;
+    justify-content: space-between;
+}
+.main__leader__txt{
+    display: flex;
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+.main__category_txt{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.img9{
+    background:url("img/balls8.png");
+    width: 248.78px;
+    height: 301px;
+}
+.img10{
+    background:url("img/balls9.png");
+    width: 248.78px;
+    height: 301px;
+}
+.img11{
+    background:url("img/balls10.png");
+    width: 248.78px;
+    height: 301px;
+}
+.img12{
+    background:url("img/balls11.png");
+    width: 248.78px;
+    height: 301px;
+}
+.img13{
+    background:url("img/balls12.png");
+    width: 248.78px;
+    height: 301px;
+}
+.sale{
+    text-decoration: line-through;
+    color: gainsboro;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.discount{
+    color:#F188F2
+}
+.main__background__sale{
+    background: url("img/main_bc.png");
+    width: 1440px;
+    margin-top: 40px;
+}
+.main__background__sale h2{
+    color: white;
+    font-size: 55px;
+
+}
+.maim_sale{
+    color: white;
+}
+input{
+    border: 0px;
+}
+.main__background__text {
+    margin-left: 774px;
+}
+
+.main__sale__img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.main__sale__button{
+    width: 473px;
+    padding-top: 26px;
+    font-size: 20px;
+    padding-bottom: 26px;
+    border-radius: 25.15px;
+    margin-bottom: 30px;
+}
+.main__sale__button1{
+    width: 473px;
+    padding-top: 26px;
+    border-radius: 25.15px;
+    margin-bottom: 30px;
+    font-size: 28.74px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    text-align: center;
+
+}
+.main__sale__txt{
+    display: flex;
+    justify-content: space-around;
+    justify-items: left;
+}
+.img14{
+    background:url("img/balls13.png");
+    width: 248.78px;
+    height: 301px;
+}
+.img15{
+    background:url("img/balls14.png");
+    width: 248.78px;
+    height: 301px;
+}
+.img16{
+    background:url("img/balls15.png");
+    width: 248.78px;
+    height: 301px;
+}
+.img17{
+    background:url("img/balls16.png");
+    width: 248.78px;
+    height: 301px;
+}
+.img18{
+    background:url("img/balls17.png");
+    width: 248.78px;
+    height: 301px;
+}
+/*----- hit end ----*/
+.zagol{
+margin-top: 40px;
+display: flex;
+}
+.zagol__p{
+    padding-top: 20px;
+}
+.main__homework{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.img19{
+    background:url("img/balls18.png");
+    width: 395px;
+    height: 409px;
+}
+.img20{
+    background:url("img/balls19.png");
+    width: 395px;
+    height: 409px;
+}
+.img21{
+    background:url("img/balls20.png");
+    width: 395px;
+    height: 409px;
+}
+.img22{
+    background:url("img/balls21.png");
+    width: 160px;
+    height: 409px;
+    background-size: cover;
+}
+.footer__body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBFBFB;
+    
+}
+.footer_text{
+    margin-top: 50px;
+    background-color: #F7F7F7;
+}
+.img22 {
+    display: flex;
+   align-items: center;
+   justify-content: end;
+   padding-right: 20px;
+}
+.footer_class__coceti{
+    display: flex;
+}
+/* page1 start */
+.main__image__page{
+    width: 670px;
+    height: 670px;
+}
+.main_page_one, .main_page_two{
+    display: flex;
+
+}
+.main_page_one{
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.main_page_one div{ 
+    margin-bottom: 35px;
+    margin-right:30.77px;
+}
+.main_page_two div{ 
+    margin-bottom: 50px;
+    margin-right:30.77px;
+}
+.img23{
+    background: url("img/balls18.png");
+    background-size: cover;
+}
+.img24{
+    background: url("img/balls19.png");
+    background-size: cover;
+}
+.img25{
+    background: url("img/balls20.png");
+    background-size: cover;
+}
+.img26{
+    background: url("img/balls22.png");
+    
+}
+/* page1 end */
+
+
+/* page2 start */
+.main__border{
+    border: 2px solid #F188F2;
+    margin-left: 281px;
+    margin-bottom: 80px;
+    text-align: center;
+    width: 878px;
+    border-radius: 15px;
+}
+.main__border h2{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.main__border p{
+    margin-bottom: 40px;
+}
+.main__border button{
+    border-radius: 7px;
+    color: #F188F2;
+    padding: 20px 40px;
+    background: #FFF3FF;
+    border: 2px solid #F188F2;
+    margin-bottom: 40px;
+}
+/* page2 end */
